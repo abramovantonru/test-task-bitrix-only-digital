@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>4</id>
+		<name>Driver</name>
+		<table_name>drivers</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>4</id>
+			<lid>ru</lid>
+			<name>Водители</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>5</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>NAME</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>ФИО</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>ФИО</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>ФИО</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru>ФИО</ru>
+			</error_message>
+			<help_message>
+				<en />
+				<ru>ФИО</ru>
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>6</id>
+			<entity_id>HLBLOCK_4</entity_id>
+			<field_name>UF_PHONE</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>PHONE</xml_id>
+			<sort>200</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Телефон</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Телефон</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Телефон</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru>Телефон</ru>
+			</error_message>
+			<help_message>
+				<en />
+				<ru>Телефон</ru>
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_name>Иванов Сергей Павлович</uf_name>
+			<uf_phone>+7 (916) 123-45-01</uf_phone>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_name>Смирнова Ольга Викторовна</uf_name>
+			<uf_phone>+7 (925) 234-56-02</uf_phone>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_name>Кузнецов Алексей Игоревич</uf_name>
+			<uf_phone>+7 (903) 345-67-03</uf_phone>
+		</item>
+		<item>
+			<id>4</id>
+			<uf_name>Попов Дмитрий Сергеевич</uf_name>
+			<uf_phone>+7 (912) 456-78-04</uf_phone>
+		</item>
+		<item>
+			<id>5</id>
+			<uf_name>Соколова Марина Андреевна</uf_name>
+			<uf_phone>+7 (915) 567-89-05</uf_phone>
+		</item>
+		<item>
+			<id>6</id>
+			<uf_name>Лебедев Николай Михайлович</uf_name>
+			<uf_phone>+7 (901) 678-90-06</uf_phone>
+		</item>
+		<item>
+			<id>7</id>
+			<uf_name>Новикова Екатерина Павловна</uf_name>
+			<uf_phone>+7 (926) 789-01-07</uf_phone>
+		</item>
+		<item>
+			<id>8</id>
+			<uf_name>Морозов Артём Олегович</uf_name>
+			<uf_phone>+7 (905) 890-12-08</uf_phone>
+		</item>
+		<item>
+			<id>9</id>
+			<uf_name>Фёдорова Наталья Романовна</uf_name>
+			<uf_phone>+7 (917) 901-23-09</uf_phone>
+		</item>
+		<item>
+			<id>10</id>
+			<uf_name>Петрова Ирина Евгеньевна</uf_name>
+			<uf_phone>+7 (900) 012-34-10</uf_phone>
+		</item>
+		<item>
+			<id>11</id>
+			<uf_name>Волков Иван Дмитриевич</uf_name>
+			<uf_phone>+7 (913) 123-45-11</uf_phone>
+		</item>
+		<item>
+			<id>12</id>
+			<uf_name>Романова Светлана Анатольевна</uf_name>
+			<uf_phone>+7 (914) 234-56-12</uf_phone>
+		</item>
+		<item>
+			<id>13</id>
+			<uf_name>Захаров Олег Викторович</uf_name>
+			<uf_phone>+7 (927) 345-67-13</uf_phone>
+		</item>
+		<item>
+			<id>14</id>
+			<uf_name>Беляков Павел Сергеевич</uf_name>
+			<uf_phone>+7 (909) 456-78-14</uf_phone>
+		</item>
+		<item>
+			<id>15</id>
+			<uf_name>Григорьева Юлия Николаевна</uf_name>
+			<uf_phone>+7 (911) 567-89-15</uf_phone>
+		</item>
+		<item>
+			<id>16</id>
+			<uf_name>Никитин Максим Андреевич</uf_name>
+			<uf_phone>+7 (922) 678-90-16</uf_phone>
+		</item>
+		<item>
+			<id>17</id>
+			<uf_name>Козлова Алина Борисовна</uf_name>
+			<uf_phone>+7 (921) 789-01-17</uf_phone>
+		</item>
+		<item>
+			<id>18</id>
+			<uf_name>Медведев Роман Петрович</uf_name>
+			<uf_phone>+7 (924) 890-12-18</uf_phone>
+		</item>
+		<item>
+			<id>19</id>
+			<uf_name>Захарова Мария Сергеевна</uf_name>
+			<uf_phone>+7 (950) 901-23-19</uf_phone>
+		</item>
+		<item>
+			<id>20</id>
+			<uf_name>Сидоров Виктор Иванович</uf_name>
+			<uf_phone>+7 (951) 012-34-20</uf_phone>
+		</item>
+		<item>
+			<id>21</id>
+			<uf_name>Орлова Полина Дмитриевна</uf_name>
+			<uf_phone>+7 (952) 123-45-21</uf_phone>
+		</item>
+		<item>
+			<id>22</id>
+			<uf_name>Тихонов Андрей Владимирович</uf_name>
+			<uf_phone>+7 (953) 234-56-22</uf_phone>
+		</item>
+		<item>
+			<id>23</id>
+			<uf_name>Крылова Анна Евгеньевна</uf_name>
+			<uf_phone>+7 (954) 345-67-23</uf_phone>
+		</item>
+		<item>
+			<id>24</id>
+			<uf_name>Воронцов Денис Михайлович</uf_name>
+			<uf_phone>+7 (955) 456-78-24</uf_phone>
+		</item>
+		<item>
+			<id>25</id>
+			<uf_name>Лазарев Сергей Платонович</uf_name>
+			<uf_phone>+7 (956) 567-89-25</uf_phone>
+		</item>
+		<item>
+			<id>26</id>
+			<uf_name>Павлова Оксана Юрьевна</uf_name>
+			<uf_phone>+7 (957) 678-90-26</uf_phone>
+		</item>
+		<item>
+			<id>27</id>
+			<uf_name>Гусев Артём Валерьевич</uf_name>
+			<uf_phone>+7 (958) 789-01-27</uf_phone>
+		</item>
+		<item>
+			<id>28</id>
+			<uf_name>Ершова Марина Константиновна</uf_name>
+			<uf_phone>+7 (959) 890-12-28</uf_phone>
+		</item>
+		<item>
+			<id>29</id>
+			<uf_name>Савин Николай Ильич</uf_name>
+			<uf_phone>+7 (960) 901-23-29</uf_phone>
+		</item>
+		<item>
+			<id>30</id>
+			<uf_name>Денисова Вера Александровна</uf_name>
+			<uf_phone>+7 (961) 012-34-30</uf_phone>
+		</item>
+	</items>
+</hiblock>

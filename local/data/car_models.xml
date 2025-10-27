@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>2</id>
+		<name>CarModel</name>
+		<table_name>car_models</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>2</id>
+			<lid>ru</lid>
+			<name>Модели авто</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>2</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>NAME</xml_id>
+			<sort>10</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Название модели</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Название модели</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Название модели</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru>Название модели</ru>
+			</error_message>
+			<help_message>
+				<en />
+				<ru>Название модели</ru>
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>3</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_CAR_LEVEL_ID</field_name>
+			<user_type_id>hlblock</user_type_id>
+			<xml_id>CAR_LEVEL_ID</xml_id>
+			<sort>20</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>I</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<display>LIST</display>
+				<list_height>1</list_height>
+				<hlblock_id>1</hlblock_id>
+				<hlfield_id>1</hlfield_id>
+				<default_value />
+				<hlblock_table>car_levels</hlblock_table>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Уровень комфорта</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Уровень комфорта</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Уровень комфорта</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru>Уровень комфорта</ru>
+			</error_message>
+			<help_message>
+				<en />
+				<ru>Уровень комфорта</ru>
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_name>Mercedes-Benz S-Class</uf_name>
+			<uf_car_level_id>1</uf_car_level_id>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_name>BMW 7 Series</uf_name>
+			<uf_car_level_id>1</uf_car_level_id>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_name>Audi A8</uf_name>
+			<uf_car_level_id>1</uf_car_level_id>
+		</item>
+		<item>
+			<id>4</id>
+			<uf_name>Lexus LS</uf_name>
+			<uf_car_level_id>1</uf_car_level_id>
+		</item>
+		<item>
+			<id>5</id>
+			<uf_name>Porsche Panamera</uf_name>
+			<uf_car_level_id>1</uf_car_level_id>
+		</item>
+		<item>
+			<id>6</id>
+			<uf_name>Toyota Camry</uf_name>
+			<uf_car_level_id>2</uf_car_level_id>
+		</item>
+		<item>
+			<id>7</id>
+			<uf_name>Honda Accord</uf_name>
+			<uf_car_level_id>2</uf_car_level_id>
+		</item>
+		<item>
+			<id>8</id>
+			<uf_name>Skoda Superb</uf_name>
+			<uf_car_level_id>2</uf_car_level_id>
+		</item>
+		<item>
+			<id>9</id>
+			<uf_name>Mazda 6</uf_name>
+			<uf_car_level_id>2</uf_car_level_id>
+		</item>
+		<item>
+			<id>10</id>
+			<uf_name>Hyundai Solaris</uf_name>
+			<uf_car_level_id>3</uf_car_level_id>
+		</item>
+		<item>
+			<id>11</id>
+			<uf_name>Kia Rio</uf_name>
+			<uf_car_level_id>3</uf_car_level_id>
+		</item>
+		<item>
+			<id>12</id>
+			<uf_name>Renault Logan</uf_name>
+			<uf_car_level_id>3</uf_car_level_id>
+		</item>
+		<item>
+			<id>13</id>
+			<uf_name>Skoda Octavia</uf_name>
+			<uf_car_level_id>3</uf_car_level_id>
+		</item>
+		<item>
+			<id>14</id>
+			<uf_name>Toyota Corolla</uf_name>
+			<uf_car_level_id>3</uf_car_level_id>
+		</item>
+	</items>
+</hiblock>

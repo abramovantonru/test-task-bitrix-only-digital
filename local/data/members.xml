@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>7</id>
+		<name>Member</name>
+		<table_name>members</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>7</id>
+			<lid>ru</lid>
+			<name>Сотрудники</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>12</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>UF_NAME</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>ФИО</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>ФИО</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>ФИО</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru>ФИО</ru>
+			</error_message>
+			<help_message>
+				<en />
+				<ru>ФИО</ru>
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>13</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_POSITION_ID</field_name>
+			<user_type_id>hlblock</user_type_id>
+			<xml_id>POSITION_ID</xml_id>
+			<sort>200</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>I</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<display>LIST</display>
+				<list_height>1</list_height>
+				<hlblock_id>5</hlblock_id>
+				<hlfield_id>9</hlfield_id>
+				<default_value />
+				<hlblock_table>positions</hlblock_table>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Должность</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Должность</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Должность</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru>Должность</ru>
+			</error_message>
+			<help_message>
+				<en />
+				<ru>Должность</ru>
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>14</id>
+			<entity_id>HLBLOCK_7</entity_id>
+			<field_name>UF_PHONE</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>PHONE</xml_id>
+			<sort>300</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Телефон</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Телефон</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Телефон</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru>Телефон</ru>
+			</error_message>
+			<help_message>
+				<en />
+				<ru>Телефон</ru>
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_name>Иванов Сергей Петрович</uf_name>
+			<uf_position_id>1</uf_position_id>
+			<uf_phone>+7 (903) 412-55-23</uf_phone>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_name>Кузнецова Ольга Николаевна</uf_name>
+			<uf_position_id>2</uf_position_id>
+			<uf_phone>+7 (921) 845-22-61</uf_phone>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_name>Смирнов Андрей Валерьевич</uf_name>
+			<uf_position_id>2</uf_position_id>
+			<uf_phone>+7 (916) 734-15-88</uf_phone>
+		</item>
+		<item>
+			<id>4</id>
+			<uf_name>Полякова Анна Сергеевна</uf_name>
+			<uf_position_id>3</uf_position_id>
+			<uf_phone>+7 (905) 318-44-76</uf_phone>
+		</item>
+		<item>
+			<id>5</id>
+			<uf_name>Волков Дмитрий Алексеевич</uf_name>
+			<uf_position_id>3</uf_position_id>
+			<uf_phone>+7 (926) 541-09-34</uf_phone>
+		</item>
+		<item>
+			<id>6</id>
+			<uf_name>Егорова Мария Павловна</uf_name>
+			<uf_position_id>3</uf_position_id>
+			<uf_phone>+7 (909) 665-71-42</uf_phone>
+		</item>
+		<item>
+			<id>7</id>
+			<uf_name>Соколов Илья Романович</uf_name>
+			<uf_position_id>4</uf_position_id>
+			<uf_phone>+7 (985) 733-80-12</uf_phone>
+		</item>
+		<item>
+			<id>8</id>
+			<uf_name>Орлова Екатерина Владимировна</uf_name>
+			<uf_position_id>4</uf_position_id>
+			<uf_phone>+7 (911) 457-67-90</uf_phone>
+		</item>
+		<item>
+			<id>9</id>
+			<uf_name>Петров Максим Евгеньевич</uf_name>
+			<uf_position_id>4</uf_position_id>
+			<uf_phone>+7 (903) 284-11-75</uf_phone>
+		</item>
+		<item>
+			<id>10</id>
+			<uf_name>Фролова Ксения Дмитриевна</uf_name>
+			<uf_position_id>5</uf_position_id>
+			<uf_phone>+7 (917) 620-48-96</uf_phone>
+		</item>
+		<item>
+			<id>11</id>
+			<uf_name>Григорьев Олег Сергеевич</uf_name>
+			<uf_position_id>5</uf_position_id>
+			<uf_phone>+7 (904) 354-12-85</uf_phone>
+		</item>
+		<item>
+			<id>12</id>
+			<uf_name>Киселева Татьяна Андреевна</uf_name>
+			<uf_position_id>5</uf_position_id>
+			<uf_phone>+7 (905) 784-66-14</uf_phone>
+		</item>
+		<item>
+			<id>13</id>
+			<uf_name>Романов Сергей Олегович</uf_name>
+			<uf_position_id>6</uf_position_id>
+			<uf_phone>+7 (912) 499-35-47</uf_phone>
+		</item>
+		<item>
+			<id>14</id>
+			<uf_name>Морозова Елена Викторовна</uf_name>
+			<uf_position_id>6</uf_position_id>
+			<uf_phone>+7 (918) 661-24-18</uf_phone>
+		</item>
+		<item>
+			<id>15</id>
+			<uf_name>Ковалев Артем Дмитриевич</uf_name>
+			<uf_position_id>6</uf_position_id>
+			<uf_phone>+7 (915) 823-90-56</uf_phone>
+		</item>
+		<item>
+			<id>16</id>
+			<uf_name>Медведева Светлана Петровна</uf_name>
+			<uf_position_id>6</uf_position_id>
+			<uf_phone>+7 (904) 336-48-90</uf_phone>
+		</item>
+		<item>
+			<id>17</id>
+			<uf_name>Никитин Павел Владимирович</uf_name>
+			<uf_position_id>6</uf_position_id>
+			<uf_phone>+7 (913) 627-95-13</uf_phone>
+		</item>
+		<item>
+			<id>18</id>
+			<uf_name>Федорова Дарья Александровна</uf_name>
+			<uf_position_id>6</uf_position_id>
+			<uf_phone>+7 (902) 517-64-89</uf_phone>
+		</item>
+		<item>
+			<id>19</id>
+			<uf_name>Гусев Константин Михайлович</uf_name>
+			<uf_position_id>7</uf_position_id>
+			<uf_phone>+7 (916) 742-10-37</uf_phone>
+		</item>
+		<item>
+			<id>20</id>
+			<uf_name>Зайцева Валентина Юрьевна</uf_name>
+			<uf_position_id>8</uf_position_id>
+			<uf_phone>+7 (905) 331-44-55</uf_phone>
+		</item>
+		<item>
+			<id>21</id>
+			<uf_name>Соловьев Роман Игоревич</uf_name>
+			<uf_position_id>8</uf_position_id>
+			<uf_phone>+7 (921) 882-90-73</uf_phone>
+		</item>
+		<item>
+			<id>22</id>
+			<uf_name>Тимофеева Елизавета Петровна</uf_name>
+			<uf_position_id>8</uf_position_id>
+			<uf_phone>+7 (910) 526-67-31</uf_phone>
+		</item>
+		<item>
+			<id>23</id>
+			<uf_name>Попов Николай Алексеевич</uf_name>
+			<uf_position_id>8</uf_position_id>
+			<uf_phone>+7 (909) 688-41-28</uf_phone>
+		</item>
+		<item>
+			<id>24</id>
+			<uf_name>Алексеева Оксана Владимировна</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (918) 425-11-09</uf_phone>
+		</item>
+		<item>
+			<id>25</id>
+			<uf_name>Михайлов Денис Павлович</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (913) 711-34-66</uf_phone>
+		</item>
+		<item>
+			<id>26</id>
+			<uf_name>Васильева Наталья Сергеевна</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (902) 867-53-90</uf_phone>
+		</item>
+		<item>
+			<id>27</id>
+			<uf_name>Жуков Игорь Константинович</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (901) 711-20-44</uf_phone>
+		</item>
+		<item>
+			<id>28</id>
+			<uf_name>Беляева Алина Николаевна</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (909) 833-67-22</uf_phone>
+		</item>
+		<item>
+			<id>29</id>
+			<uf_name>Ефимов Георгий Валерьевич</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (922) 731-77-99</uf_phone>
+		</item>
+		<item>
+			<id>30</id>
+			<uf_name>Комарова Юлия Ивановна</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (905) 421-08-31</uf_phone>
+		</item>
+		<item>
+			<id>31</id>
+			<uf_name>Тарасов Виктор Михайлович</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (912) 633-41-27</uf_phone>
+		</item>
+		<item>
+			<id>32</id>
+			<uf_name>Калинина Маргарита Львовна</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (901) 542-69-15</uf_phone>
+		</item>
+		<item>
+			<id>33</id>
+			<uf_name>Борисов Артем Игоревич</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (908) 791-34-20</uf_phone>
+		</item>
+		<item>
+			<id>34</id>
+			<uf_name>Сидорова Кристина Юрьевна</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (914) 558-47-02</uf_phone>
+		</item>
+		<item>
+			<id>35</id>
+			<uf_name>Абрамов Виталий Евгеньевич</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (903) 735-15-77</uf_phone>
+		</item>
+		<item>
+			<id>36</id>
+			<uf_name>Лебедева Ирина Александровна</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (915) 841-19-90</uf_phone>
+		</item>
+		<item>
+			<id>37</id>
+			<uf_name>Николаев Арсений Романович</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (918) 478-60-11</uf_phone>
+		</item>
+		<item>
+			<id>38</id>
+			<uf_name>Павлова Ольга Григорьевна</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (904) 788-22-84</uf_phone>
+		</item>
+		<item>
+			<id>39</id>
+			<uf_name>Матвеев Алексей Владимирович</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (911) 654-30-47</uf_phone>
+		</item>
+		<item>
+			<id>40</id>
+			<uf_name>Семенова Вера Никитична</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (902) 716-90-34</uf_phone>
+		</item>
+		<item>
+			<id>41</id>
+			<uf_name>Гордеев Петр Степанович</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (905) 375-12-68</uf_phone>
+		</item>
+		<item>
+			<id>42</id>
+			<uf_name>Антонова Дарья Витальевна</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (912) 841-02-93</uf_phone>
+		</item>
+		<item>
+			<id>43</id>
+			<uf_name>Фомин Виктор Сергеевич</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (918) 324-75-44</uf_phone>
+		</item>
+		<item>
+			<id>44</id>
+			<uf_name>Рябова Екатерина Александровна</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (909) 681-12-56</uf_phone>
+		</item>
+		<item>
+			<id>45</id>
+			<uf_name>Морозов Егор Андреевич</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (901) 742-98-32</uf_phone>
+		</item>
+		<item>
+			<id>46</id>
+			<uf_name>Петухова Светлана Валерьевна</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (915) 321-67-80</uf_phone>
+		</item>
+		<item>
+			<id>47</id>
+			<uf_name>Данилов Михаил Юрьевич</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (903) 875-14-91</uf_phone>
+		</item>
+		<item>
+			<id>48</id>
+			<uf_name>Филиппова Анастасия Леонидовна</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (922) 640-55-17</uf_phone>
+		</item>
+		<item>
+			<id>49</id>
+			<uf_name>Воронов Константин Павлович</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (904) 332-74-08</uf_phone>
+		</item>
+		<item>
+			<id>50</id>
+			<uf_name>Лукина Алёна Дмитриевна</uf_name>
+			<uf_position_id>9</uf_position_id>
+			<uf_phone>+7 (911) 476-80-22</uf_phone>
+		</item>
+	</items>
+</hiblock>

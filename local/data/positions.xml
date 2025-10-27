@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>5</id>
+		<name>Position</name>
+		<table_name>positions</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>5</id>
+			<lid>ru</lid>
+			<name>Должности</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>9</id>
+			<entity_id>HLBLOCK_5</entity_id>
+			<field_name>UF_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>NAME</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Название</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Название</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Название</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru>Название</ru>
+			</error_message>
+			<help_message>
+				<en />
+				<ru>Название</ru>
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_name>Генеральный директор</uf_name>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_name>Директор департамента</uf_name>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_name>Руководитель отдела</uf_name>
+		</item>
+		<item>
+			<id>4</id>
+			<uf_name>VIP-гость</uf_name>
+		</item>
+		<item>
+			<id>5</id>
+			<uf_name>Старший специалист</uf_name>
+		</item>
+		<item>
+			<id>6</id>
+			<uf_name>Инженер</uf_name>
+		</item>
+		<item>
+			<id>7</id>
+			<uf_name>Главный бухгалтер</uf_name>
+		</item>
+		<item>
+			<id>8</id>
+			<uf_name>Бухгалтер</uf_name>
+		</item>
+		<item>
+			<id>9</id>
+			<uf_name>Специалист</uf_name>
+		</item>
+	</items>
+</hiblock>

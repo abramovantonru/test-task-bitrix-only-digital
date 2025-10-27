@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>3</id>
+		<name>Car</name>
+		<table_name>cars</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>3</id>
+			<lid>ru</lid>
+			<name>Авто</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>4</id>
+			<entity_id>HLBLOCK_3</entity_id>
+			<field_name>UF_MODEL_ID</field_name>
+			<user_type_id>hlblock</user_type_id>
+			<xml_id>MODEL_ID</xml_id>
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>I</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<display>LIST</display>
+				<list_height>1</list_height>
+				<hlblock_id>2</hlblock_id>
+				<hlfield_id>2</hlfield_id>
+				<default_value />
+				<hlblock_table>car_models</hlblock_table>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Модель авто</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Модель авто</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Модель авто</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru>Модель авто</ru>
+			</error_message>
+			<help_message>
+				<en />
+				<ru>Модель авто</ru>
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>7</id>
+			<entity_id>HLBLOCK_3</entity_id>
+			<field_name>UF_DRIVER_ID</field_name>
+			<user_type_id>hlblock</user_type_id>
+			<xml_id>DRIVER_ID</xml_id>
+			<sort>200</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>I</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<display>LIST</display>
+				<list_height>1</list_height>
+				<hlblock_id>4</hlblock_id>
+				<hlfield_id>5</hlfield_id>
+				<default_value />
+				<hlblock_table>drivers</hlblock_table>
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Водитель</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Водитель</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Водитель</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru>Водитель</ru>
+			</error_message>
+			<help_message>
+				<en />
+				<ru>Водитель</ru>
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>8</id>
+			<entity_id>HLBLOCK_3</entity_id>
+			<field_name>UF_REG_NUMBER</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id>REG_NUMBER</xml_id>
+			<sort>300</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>S</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en />
+				<ru>Гос. рег. номер</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru>Гос. рег. номер</ru>
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru>Гос. рег. номер</ru>
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru>Гос. рег. номер</ru>
+			</error_message>
+			<help_message>
+				<en />
+				<ru>Гос. рег. номер</ru>
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_model_id>1</uf_model_id>
+			<uf_driver_id>1</uf_driver_id>
+			<uf_reg_number>А321ВС77</uf_reg_number>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_model_id>6</uf_model_id>
+			<uf_driver_id>2</uf_driver_id>
+			<uf_reg_number>М457ЕН78</uf_reg_number>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_model_id>10</uf_model_id>
+			<uf_driver_id>3</uf_driver_id>
+			<uf_reg_number>Н109АР50</uf_reg_number>
+		</item>
+		<item>
+			<id>4</id>
+			<uf_model_id>2</uf_model_id>
+			<uf_driver_id>4</uf_driver_id>
+			<uf_reg_number>Р882ТС99</uf_reg_number>
+		</item>
+		<item>
+			<id>5</id>
+			<uf_model_id>7</uf_model_id>
+			<uf_driver_id>5</uf_driver_id>
+			<uf_reg_number>С706КУ77</uf_reg_number>
+		</item>
+		<item>
+			<id>6</id>
+			<uf_model_id>8</uf_model_id>
+			<uf_driver_id>6</uf_driver_id>
+			<uf_reg_number>Т235МО46</uf_reg_number>
+		</item>
+		<item>
+			<id>7</id>
+			<uf_model_id>4</uf_model_id>
+			<uf_driver_id>7</uf_driver_id>
+			<uf_reg_number>Е391КТ78</uf_reg_number>
+		</item>
+		<item>
+			<id>8</id>
+			<uf_model_id>3</uf_model_id>
+			<uf_driver_id>8</uf_driver_id>
+			<uf_reg_number>А560МР77</uf_reg_number>
+		</item>
+		<item>
+			<id>9</id>
+			<uf_model_id>11</uf_model_id>
+			<uf_driver_id>9</uf_driver_id>
+			<uf_reg_number>В273СА50</uf_reg_number>
+		</item>
+		<item>
+			<id>10</id>
+			<uf_model_id>4</uf_model_id>
+			<uf_driver_id>10</uf_driver_id>
+			<uf_reg_number>Е391КТ78</uf_reg_number>
+		</item>
+		<item>
+			<id>11</id>
+			<uf_model_id>9</uf_model_id>
+			<uf_driver_id>11</uf_driver_id>
+			<uf_reg_number>А560МР77</uf_reg_number>
+		</item>
+		<item>
+			<id>12</id>
+			<uf_model_id>14</uf_model_id>
+			<uf_driver_id>12</uf_driver_id>
+			<uf_reg_number>Н407УС190</uf_reg_number>
+		</item>
+		<item>
+			<id>13</id>
+			<uf_model_id>13</uf_model_id>
+			<uf_driver_id>13</uf_driver_id>
+			<uf_reg_number>К998ВА99</uf_reg_number>
+		</item>
+		<item>
+			<id>14</id>
+			<uf_model_id>5</uf_model_id>
+			<uf_driver_id>14</uf_driver_id>
+			<uf_reg_number>Р214ЕН77</uf_reg_number>
+		</item>
+		<item>
+			<id>15</id>
+			<uf_model_id>7</uf_model_id>
+			<uf_driver_id>15</uf_driver_id>
+			<uf_reg_number>С031АТ46</uf_reg_number>
+		</item>
+		<item>
+			<id>16</id>
+			<uf_model_id>10</uf_model_id>
+			<uf_driver_id>16</uf_driver_id>
+			<uf_reg_number>М776КУ50</uf_reg_number>
+		</item>
+		<item>
+			<id>17</id>
+			<uf_model_id>6</uf_model_id>
+			<uf_driver_id>17</uf_driver_id>
+			<uf_reg_number>Т459ОВ116</uf_reg_number>
+		</item>
+		<item>
+			<id>18</id>
+			<uf_model_id>12</uf_model_id>
+			<uf_driver_id>18</uf_driver_id>
+			<uf_reg_number>У680РН78</uf_reg_number>
+		</item>
+		<item>
+			<id>19</id>
+			<uf_model_id>1</uf_model_id>
+			<uf_driver_id>19</uf_driver_id>
+			<uf_reg_number>Х127ВС77</uf_reg_number>
+		</item>
+		<item>
+			<id>20</id>
+			<uf_model_id>8</uf_model_id>
+			<uf_driver_id>20</uf_driver_id>
+			<uf_reg_number>В894ЕК99</uf_reg_number>
+		</item>
+		<item>
+			<id>21</id>
+			<uf_model_id>11</uf_model_id>
+			<uf_driver_id>21</uf_driver_id>
+			<uf_reg_number>Е555АТ50</uf_reg_number>
+		</item>
+		<item>
+			<id>22</id>
+			<uf_model_id>2</uf_model_id>
+			<uf_driver_id>22</uf_driver_id>
+			<uf_reg_number>А302КР97</uf_reg_number>
+		</item>
+		<item>
+			<id>23</id>
+			<uf_model_id>9</uf_model_id>
+			<uf_driver_id>23</uf_driver_id>
+			<uf_reg_number>Н671СО46</uf_reg_number>
+		</item>
+		<item>
+			<id>24</id>
+			<uf_model_id>13</uf_model_id>
+			<uf_driver_id>24</uf_driver_id>
+			<uf_reg_number>М219УТ77</uf_reg_number>
+		</item>
+		<item>
+			<id>25</id>
+			<uf_model_id>14</uf_model_id>
+			<uf_driver_id>25</uf_driver_id>
+			<uf_reg_number>Р043ЕН116</uf_reg_number>
+		</item>
+		<item>
+			<id>26</id>
+			<uf_model_id>7</uf_model_id>
+			<uf_driver_id>26</uf_driver_id>
+			<uf_reg_number>С824АК50</uf_reg_number>
+		</item>
+		<item>
+			<id>27</id>
+			<uf_model_id>12</uf_model_id>
+			<uf_driver_id>27</uf_driver_id>
+			<uf_reg_number>Т390ОР99</uf_reg_number>
+		</item>
+		<item>
+			<id>28</id>
+			<uf_model_id>3</uf_model_id>
+			<uf_driver_id>28</uf_driver_id>
+			<uf_reg_number>У117МС78</uf_reg_number>
+		</item>
+		<item>
+			<id>29</id>
+			<uf_model_id>4</uf_model_id>
+			<uf_driver_id>29</uf_driver_id>
+			<uf_reg_number>Х662АР77</uf_reg_number>
+		</item>
+		<item>
+			<id>30</id>
+			<uf_model_id>10</uf_model_id>
+			<uf_driver_id>30</uf_driver_id>
+			<uf_reg_number>В508ЕН46</uf_reg_number>
+		</item>
+	</items>
+</hiblock>
