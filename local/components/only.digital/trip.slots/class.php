@@ -225,11 +225,8 @@ class TripSlots extends CBitrixComponent
         SQL;
 
         $query = $connection->query($sql);
-        $rows = $query->fetchAll();
 
-        $connection->stopTracker();
-
-        return $rows;
+        return $query->fetchAll();
     }
 
     private function getMemberPosition(int $memberId): ?int
